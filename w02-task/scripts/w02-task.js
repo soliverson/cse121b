@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = 'Stacy Oliverson';
 let currentYear = new Date().getFullYear();
-let profilePicture = "https://scontent-den4-1.xx.fbcdn.net/v/t39.30808-6/369931346_836975561408519_3723969643670796735_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=gfAKRk4C074AX98bXv5&_nc_ht=scontent-den4-1.xx&oh=00_AfBVomRUPaZDOskwJ17iS7TGpWENetsOJcAduv_oy1cnXg&oe=65115E4B";
+let profilePicture = 'images/StacyImage.jpg';
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
