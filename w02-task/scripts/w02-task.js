@@ -11,27 +11,30 @@ let profilePicture = '/w02-task/images/StacyImage.jpg';
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const pictureElement = document.querySelector('picture');
 const imageElement = document.querySelector('img');
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`; 
-yearElement.textContent = currentYear;
+
+
+
+
+yearElement.innerHTML = `<strong>${currentYear}</strong>`;
 imageElement.setAttribute('src', profilePicture);
 const altText = 'Profile image of Stacy Oliverson' ;
 imageElement.setAttribute('alt', altText);
 
 /* Step 5 - Array */
-let favFoods = ['Steak', 'Chocolate Chip Cookies', 'Roast', 'Rolls', 'Mashed Potatoes', 'Pumpkin Pie'];
-foodElement.innerHTML = `${favFoods}`;
-favFoods.push('Turkey');
-foodElement.innerHTML += `<br>${favFoods}`;
-favFoods.shift();
-foodElement.innerHTML += `<br>${favFoods}`;
-favFoods.pop();
-foodElement.innerHTML += `<br>${favFoods}`;
+let foodItem = "chocolate chip cookies";
+let favFood = ["steak", "ice cream", "turkey", "pumpkin pie"]
 
+foodElement.innerHTML = `<br>${favFood}`;
 
-
+favFood.push(foodItem);
+foodElement.innerHTML += `<br>${favFood}`;
+favFood.shift();
+foodElement.innerHTML += `<br>${favFood}`;
+favFood.pop();
+foodElement.innerHTML += `<br>${favFood}`;
 
 
