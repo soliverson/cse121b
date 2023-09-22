@@ -29,7 +29,6 @@ let foodItem = "chocolate chip cookies";
 let favFood = ["steak", "ice cream", "turkey", "pumpkin pie"]
 
 foodElement.innerHTML = `<br>${favFood}`;
-
 favFood.push(foodItem);
 foodElement.innerHTML += `<br>${favFood}`;
 favFood.shift();
