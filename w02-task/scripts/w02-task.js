@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = 'Stacy Oliverson';
 let currentYear = new Date().getFullYear();
-let profilePicture = 'images/StacyImage.jpg';
+let profilePicture = 'https://picsum.photos/536/354';
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
