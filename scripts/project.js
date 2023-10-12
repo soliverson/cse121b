@@ -1,0 +1,1 @@
+let goatPicture = 'images/goats.jpg';
