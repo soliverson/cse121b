@@ -30,14 +30,28 @@
     </picture>
     <section>
       <h1>When Will Your Goat Give Birth<br>• &nbsp;<span id="name"></span>&nbsp; •</h1>
-      <h2>Put the date that your goat mated here:</h2>
+      <h2>Put the first date that your goat mated here:</h2>
+      <form>
+        <span>
+            <label for="day">Day:</label>
+            <select name="day" id="day"></select>
+        </span>
+        <span>
+            <label for="month">Month:</label>
+            <select name="month" id="month"></select>
+        </span>
+        <span>
+            <label for="year">Year:</label>
+            <select name="year" id="year">Year:</select>
+        </span>
+    </form>
     </section>
   </main>
 
   <footer>
     &copy;<span id="year"></span> | My Project | CSE 121b
   </footer>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/project.js"></script>
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>

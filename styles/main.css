@@ -311,5 +311,12 @@ footer {
         margin: 0 auto;
         max-width: 950px;
     }
-
+form span{
+    display: block;
+    margin: 20px 0;
+}    
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
 }
